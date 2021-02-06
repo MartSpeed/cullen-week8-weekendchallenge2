@@ -5,14 +5,20 @@
 ## Base Mode
 
 1. [ ] Build wireframe
-   - [ ] setup server folder
-     - [ ] server.js
-   - [ ] setup public folder
-     - [ ] index.html
-     - [ ] styles.css folder
-   - [ ] setup modules folder
-   - [ ] setup client folder
-     - [ ] function run
+
+- [x] public folder
+  - [x] index.html
+  - [x] styles.css
+- [x] scripts folder
+  - [x] jquery.js
+  - [x] calculator.js
+- [ ] setup server folder
+  - [ ] server.js
+- [ ] setup module folder
+  - [ ] localhost:5000 test
+- [ ] setup modules folder
+- [ ] setup client folder
+  - [ ] function run
 
 ## Stretch Goal
 
