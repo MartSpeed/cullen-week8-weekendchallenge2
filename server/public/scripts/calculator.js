@@ -13,5 +13,5 @@ function onReady() {
 }
 
 function clientCalculator() {
-  console.log(`inside the clientCalculator`, spiderMan);
+  console.log('inside the clientCalculator', spiderMan);
 }
