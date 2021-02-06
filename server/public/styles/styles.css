@@ -1,0 +1,20 @@
+html {
+  margin: 0;
+  padding: 0;
+  background-color: blanchedalmond;
+}
+body {
+  margin: 0 10px;
+  padding: 5px;
+  background-color: aqua;
+}
+main {
+  padding: 15px;
+  margin: 10px 0;
+}
+input {
+  padding: 8px;
+}
+button {
+  padding: 8px;
+}
