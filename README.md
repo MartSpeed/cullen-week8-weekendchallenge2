@@ -4,7 +4,7 @@
 
 ## Base Mode
 
-1. [ ] Build wireframe
+1. [ ] Build client side Wireframe
 
 - [x] public folder
   - [x] index.html
@@ -13,12 +13,13 @@
   - [x] jquery.js
   - [x] calculator.js
 - [ ] setup server folder
-  - [ ] server.js
-- [ ] setup module folder
-  - [ ] localhost:5000 test
+  - [x] server.js
+        a. npm init for node initialization
+        b. npm express
+        c. npm body-parser
+  - [x] localhost:5000 test
 - [ ] setup modules folder
 - [ ] setup client folder
-  - [ ] function run
 
 ## Stretch Goal
 
