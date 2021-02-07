@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: trie }));
 
 //LISTENER
 app.listen(PORT, function () {
-  console.log(`I am in the port: ${spiderMan}`);
+  console.log('app listener', PORT);
 });
 
 //GET ENDPOINT
