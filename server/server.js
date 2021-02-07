@@ -2,6 +2,7 @@ const express = require('express');
 
 //const calculator = require('./public/scripts/calculator');
 
+// create our app
 const app = express();
 
 const PORT = 5000;
@@ -12,10 +13,14 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 //LISTENER
+// listening for http request
 app.listen(PORT, function () {
   console.log('app listener', PORT);
 });
 
 //GET ENDPOINT
+app.post('./calculator', (req, res) {
+  req.body.
+});
 
 //POST ENDPOINT
