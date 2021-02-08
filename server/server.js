@@ -1,4 +1,5 @@
 const express = require('express');
+const calculator = require('./modules/calculator')
 
 //const calculator = require('./public/scripts/calculator');
 
@@ -19,8 +20,9 @@ app.listen(PORT, function () {
 });
 
 //GET ENDPOINT
-app.post('./calculator', (req, res) {
-  req.body.
+app.get('./calculator', (req, res) {
+  console.log('GET request for quotes');
+  res.send(calculator.clientCalculator());
 });
 
 //POST ENDPOINT
