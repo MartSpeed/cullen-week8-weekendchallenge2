@@ -20,7 +20,7 @@ app.listen(PORT, function () {
 });
 
 //GET ENDPOINT
-app.get('./calculator', (req, res) {
+app.get('/module/calculator', (req, res) {
   console.log('GET request for quotes');
   res.send(calculator.clientCalculator());
 });
