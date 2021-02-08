@@ -8,8 +8,8 @@ let spiderMan = true;
 function onReady() {
   console.log(`JQuery: ${spiderMan}`);
 
-  // call the math function based on button pressed
-  $(document).on('click', '#button_plus', clientCalculator);
+  // button clear input
+  $('#button_clear').on('click', clearButton);
   //clientCalculator();
 }
 
@@ -32,4 +32,12 @@ function clientCalculator(num1, num2) {
   } else if ($('value') === '/') {
     return quotient;
   }
+}
+
+// clear button function
+function clearButton(event) {
+  // use event.preventDefault() method to stop the from from refreshing
+  console.log('clear button');
+  $('#input_number1').val(' ');
+  $('#input_number2').val(' ');
 }

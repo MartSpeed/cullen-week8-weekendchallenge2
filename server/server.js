@@ -1,5 +1,5 @@
 const express = require('express');
-const calculator = require('./modules/calculator')
+const calculator = require('./public/scripts/calculator')
 
 //const calculator = require('./public/scripts/calculator');
 
